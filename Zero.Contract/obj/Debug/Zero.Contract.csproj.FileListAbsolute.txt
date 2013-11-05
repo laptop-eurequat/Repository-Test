@@ -1,0 +1,14 @@
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\obj\Debug\Zero.Contract.csprojResolveAssemblyReference.cache
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.Contract.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.Contract.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.DataContract.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.DataContract.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\obj\Debug\Zero.Contract.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\obj\Debug\Zero.Contract.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.Contract.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.Contract.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.DataContract.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\bin\Debug\Zero.DataContract.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\obj\Debug\Zero.Contract.csprojResolveAssemblyReference.cache
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\obj\Debug\Zero.Contract.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Contract\obj\Debug\Zero.Contract.pdb

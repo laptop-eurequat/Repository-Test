@@ -1,0 +1,21 @@
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\bin\Debug\Zero.POCO.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\bin\Debug\Zero.POCO.pdb
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\bin\Debug\Zero.Core.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\bin\Debug\Zero.Core.pdb
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\obj\Debug\Zero.POCO.csprojResolveAssemblyReference.cache
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\obj\Debug\Zero.POCO.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.POCO\obj\Debug\Zero.POCO.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.POCO.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.POCO.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.Core.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.Core.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\obj\Debug\Zero.POCO.csprojResolveAssemblyReference.cache
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\obj\Debug\Zero.POCO.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\obj\Debug\Zero.POCO.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\obj\Debug\Zero.POCO.csprojResolveAssemblyReference.cache
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.POCO.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.POCO.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.Core.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\bin\Debug\Zero.Core.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\obj\Debug\Zero.POCO.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.POCO\obj\Debug\Zero.POCO.pdb

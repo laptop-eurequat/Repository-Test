@@ -1,0 +1,17 @@
+D:\projet\Media Plan\Zero\Zero.Core\obj\Debug\Zero.Core.csprojResolveAssemblyReference.cache
+C:\Users\Sofiane\Desktop\Zero\Zero.Core\bin\Debug\Zero.Core.dll.config
+C:\Users\Sofiane\Desktop\Zero\Zero.Core\bin\Debug\Zero.Core.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.Core\bin\Debug\Zero.Core.pdb
+C:\Users\Sofiane\Desktop\Zero\Zero.Core\obj\Debug\Zero.Core.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.Core\obj\Debug\Zero.Core.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Core\bin\Debug\Zero.Core.dll.config
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Core\bin\Debug\Zero.Core.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Core\bin\Debug\Zero.Core.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Core\obj\Debug\Zero.Core.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Core\obj\Debug\Zero.Core.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Core\obj\Debug\Zero.Core.csprojResolveAssemblyReference.cache
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Core\bin\Debug\Zero.Core.dll.config
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Core\bin\Debug\Zero.Core.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Core\bin\Debug\Zero.Core.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Core\obj\Debug\Zero.Core.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Core\obj\Debug\Zero.Core.pdb

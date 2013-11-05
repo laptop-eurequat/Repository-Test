@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="11426385-c516-41a1-856d-7a037af33363" name="Model" linkedPackageId="3404ec15-f716-44e4-b604-7881da809155" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="170ec636-bb9f-4fa5-a02f-7bfa0b130402" name="user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="53215f9e-c341-4fc2-bfc9-1ca7c1323cc6" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0120fa10-3c39-406a-b07a-d8a9bf952bd0" name="Acces a sa compagne" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c9c815d6-2978-4055-bee4-79c066035adb" />
+        <extendedCases>
+          <extend Id="722796e5-7510-4331-9071-61966379e02f">
+            <useCaseMoniker Id="10895e84-a6bf-4143-bbee-c7126cd8562c" LastKnownName="Creation compagne" />
+            <elementDefinition Id="b6825308-758c-40a7-8ea4-e1cbf1c1b250" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="ea7eb6d1-b5ec-414b-8bbd-ebd5db50c61f">
+            <useCaseMoniker Id="741b63a1-8f15-436a-aa26-20f1420b36c7" LastKnownName="Rechercher sa compagne" />
+            <elementDefinition Id="233dc915-962d-4d8f-a59a-b90a3bb0f4e4" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ba4f9ba3-b63d-4b97-b8a8-784788cb9e63" name="Acces a une une grille tarifaire" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0ae2588b-0014-4785-9287-a0e15d11eccd" />
+        <extendedCases>
+          <extend Id="2c6112a1-1f8b-4157-bbed-1eb8329c20f4">
+            <useCaseMoniker Id="b5851761-a7e2-4d2f-bbeb-71256a0b7cf2" LastKnownName="Creation grille tarifaire" />
+            <elementDefinition Id="a98dc85c-e965-4214-be3b-0089984f7764" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="1dba206c-bda4-4f87-8c8f-88e0d6a23ed8">
+            <useCaseMoniker Id="19157960-ecd8-4e29-a168-e025ed66d4c7" LastKnownName="Rechercher grille tarifaire" />
+            <elementDefinition Id="b3928237-1778-4318-a039-378b3a3bdee3" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a7b21ceb-5bf3-4f20-93df-3e44811e725d" name="Access a  un plan media " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3817e9bb-4015-4d65-849b-27d70c26a9ce" />
+        <extendedCases>
+          <extend Id="243ca719-6c36-44c2-9cd7-378e9044c5ec">
+            <useCaseMoniker Id="cbe63dd5-7dbe-45d7-bdea-7d921afc438e" LastKnownName="Creation plan media" />
+            <elementDefinition Id="06d56c2d-8351-4c88-ab03-8432e27281ca" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="7dbd77b9-c5e3-450a-a72d-44a5701a1efd">
+            <useCaseMoniker Id="73c8bd33-96b0-4ae9-9808-ffa7538f16d8" LastKnownName="Rechercher plan media" />
+            <elementDefinition Id="219b498e-4b43-4b16-a677-9813646dd61a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bda363f0-6933-4bce-867f-d056b1afbd36" name="Optimization d'un plan" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2ba32a28-05b6-457c-9bdf-f314d60190b8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="10895e84-a6bf-4143-bbee-c7126cd8562c" name="Creation compagne" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="006d4228-20ae-48aa-ba67-55d0fabc5c5d" />
+        <extendedCases>
+          <extend Id="6e8742d0-408a-4f66-beef-4bcf27592a26">
+            <useCaseMoniker Id="9be6fdb8-3e26-4226-bfec-8e717817222b" LastKnownName="Remplir un plan media" />
+            <elementDefinition Id="9063bf5d-1e2d-42ac-8075-0eb5ef56187f" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="741b63a1-8f15-436a-aa26-20f1420b36c7" name="Rechercher sa compagne" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f6805d2d-eced-4237-b516-8d6869ba3cc2" />
+        <extendedCases>
+          <extend Id="b3b0b9fd-46dd-47f4-a3b0-798203043a12">
+            <useCaseMoniker Id="9be6fdb8-3e26-4226-bfec-8e717817222b" LastKnownName="Remplir un plan media" />
+            <elementDefinition Id="f50de061-9782-4055-925f-71bf6355ceba" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b5851761-a7e2-4d2f-bbeb-71256a0b7cf2" name="Creation grille tarifaire" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="64c38d2e-d71e-4f88-bb89-c6e02f03cd1a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="19157960-ecd8-4e29-a168-e025ed66d4c7" name="Rechercher grille tarifaire" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58160be2-a113-45ba-9c90-f9fa58273448" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cbe63dd5-7dbe-45d7-bdea-7d921afc438e" name="Creation plan media" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2c5e6a09-3cfa-4926-9d0e-d16a92d177a8" />
+        <suppliersInternal>
+          <dependency Id="c59256a5-7b3f-4e2b-8ce6-ab360f7b1b08">
+            <useCaseMoniker Id="04e16a42-7efd-4c21-8fa0-8480c6ab2e3a" LastKnownName="Affichage des GRP" />
+            <elementDefinition Id="3e6fa772-c848-45de-8b77-5fd34b47f8ef" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="73c8bd33-96b0-4ae9-9808-ffa7538f16d8" name="Rechercher plan media" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78f58868-2cb6-4ffe-87dd-334c08ceed88" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9be6fdb8-3e26-4226-bfec-8e717817222b" name="Remplir un plan media" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="084b61c0-7844-4a14-bedf-af73c6000fd1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="306705fe-885e-4315-87e9-271a8693be46" name="Acceder a ses filtres" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dc77ada6-7703-474f-87f0-d626fc4c1b1b" />
+        <extendedCases>
+          <extend Id="aa73945e-785e-4bc3-92d0-fa973a79462b">
+            <useCaseMoniker Id="cc23f82b-ac81-499a-b8a1-e62a93ad280c" LastKnownName="Creer filtre" />
+            <elementDefinition Id="a2699751-aa0c-445b-b8e8-e8e056ab83b9" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="9471ca91-fd8f-4abd-a0f1-92f777c860f7">
+            <useCaseMoniker Id="d2dfe6af-46c5-4566-a4ac-409f72510582" LastKnownName="rechercher filtre" />
+            <elementDefinition Id="1d9f6170-9e2f-4e52-9402-4d3c92c6c2b4" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cc23f82b-ac81-499a-b8a1-e62a93ad280c" name="Creer filtre" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1eacc95d-0578-4257-995d-d41ed6f1043d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d2dfe6af-46c5-4566-a4ac-409f72510582" name="rechercher filtre" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="33b833c0-c004-4669-9b3d-1fbe5474df67" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="04e16a42-7efd-4c21-8fa0-8480c6ab2e3a" name="Affichage des GRP" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9fdc78a8-340a-4d94-8089-cdd86c56700c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="76861565-ae25-49a4-b699-ac305cbc77a0" name="uploader une vague" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bbb557c6-116a-4709-8229-0f49aefb769d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e6e0eea1-566d-4668-8127-61df32a5ecab" name="Uploader Plan media" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85454c8e-c08a-4552-a399-42fa6b653578" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="3404ec15-f716-44e4-b604-7881da809155" name="Zero.Modeling">
+    <elementDefinition Id="6da236c5-1d33-437d-9286-fb284c7796d2" />
+    <profileInstances>
+      <packageHasProfileInstances Id="f1d4e523-db21-4dee-8f7e-b1a917584c58">
+        <profileInstance Id="a84c6910-e12e-4eb9-ac91-93adb5a79f48" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="9d509a60-c1e0-4a4a-8bc6-a4be29ebfe00">
+        <profileInstance Id="4779a654-8dd6-4e38-b262-82897a4ea507" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,31 @@
+D:\projet\Media Plan\Zero\Zero.Repository\bin\Debug\Zero.Repository.dll
+D:\projet\Media Plan\Zero\Zero.Repository\bin\Debug\Zero.Repository.pdb
+D:\projet\Media Plan\Zero\Zero.Repository\obj\Debug\Zero.Repository.csprojResolveAssemblyReference.cache
+D:\projet\Media Plan\Zero\Zero.Repository\obj\Debug\Zero.Repository.dll
+D:\projet\Media Plan\Zero\Zero.Repository\obj\Debug\Zero.Repository.pdb
+C:\Users\Sofiane\Desktop\Zero\Zero.Repository\bin\Debug\Zero.Repository.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.Repository\bin\Debug\Zero.Repository.pdb
+C:\Users\Sofiane\Desktop\Zero\Zero.Repository\obj\Debug\Zero.Repository.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.Repository\obj\Debug\Zero.Repository.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Repository.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Repository.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\obj\Debug\Zero.Repository.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\obj\Debug\Zero.Repository.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\obj\Debug\Zero.Repository.csprojResolveAssemblyReference.cache
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Core.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.POCO.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Excel.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Core.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.POCO.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Repository.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Repository.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Core.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.POCO.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Excel.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.Core.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\bin\Debug\Zero.POCO.pdb
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\obj\Debug\Zero.Repository.csprojResolveAssemblyReference.cache
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\obj\Debug\Zero.Repository.dll
+F:\projet\Media Plan\mediaPlan\Zero\Zero.Repository\obj\Debug\Zero.Repository.pdb

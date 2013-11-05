@@ -1,0 +1,7 @@
+DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.XtraScrollableControl, DevExpress.Utils.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DXAddin.Connect, DXAddin, Version=1.0.9.9, Culture=neutral, PublicKeyToken=1bade7d244b1b328
+DevExpress.Registration.LicenseHelper, DevExpress.Registration, Version=12.1.4.0, Culture=neutral, PublicKeyToken=940cfcde86f32efd

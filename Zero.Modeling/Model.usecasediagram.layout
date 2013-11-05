@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Model">
+  <useCaseModelRootMoniker Id="11426385-c516-41a1-856d-7a037af33363" />
+  <nestedChildShapes>
+    <actorShape Id="4d3ad9f7-956c-4f5a-a546-9e70f8c508c3" absoluteBounds="0.625, 3.25, 0.75, 0.875" isReference="false" heightOffset="0">
+      <actorMoniker Id="170ec636-bb9f-4fa5-a02f-7bfa0b130402" LastKnownName="user" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="6290738c-30a2-44b6-ba5b-170789dcd091" absoluteBounds="2.5, 3.25, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="0120fa10-3c39-406a-b07a-d8a9bf952bd0" LastKnownName="Acces a sa compagne" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="97556513-a832-4e93-96d1-156aaaef0f11" absoluteBounds="2.5, 4.25, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ba4f9ba3-b63d-4b97-b8a8-784788cb9e63" LastKnownName="Acces a une une grille tarifaire" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="29d928bf-a66c-4228-b5a4-88469d4cb257" absoluteBounds="2.5, 5.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="a7b21ceb-5bf3-4f20-93df-3e44811e725d" LastKnownName="Access a  un plan media " />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="fad5e4bc-22eb-4301-a659-f51d7abb7548" absoluteBounds="2.375, 6.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="bda363f0-6933-4bce-867f-d056b1afbd36" LastKnownName="Optimization d'un plan" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="5cb46598-38ae-4d28-b14b-d3f69f0a5a8e" absoluteBounds="5, 2.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="10895e84-a6bf-4143-bbee-c7126cd8562c" LastKnownName="Creation compagne" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(3.45765751621138 : 3.43664418304187); (5.06189204566168 : 2.99547968744304)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="722796e5-7510-4331-9071-61966379e02f" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="3.3685324659421854, 3.1178725276195509, 0.51066982746124268, 0.14800345897674561" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="6290738c-30a2-44b6-ba5b-170789dcd091" />
+        <useCaseShapeMoniker Id="5cb46598-38ae-4d28-b14b-d3f69f0a5a8e" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="84f45dc2-0661-4d31-8dbf-c5503d1462c8" absoluteBounds="5, 3.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="741b63a1-8f15-436a-aa26-20f1420b36c7" LastKnownName="Rechercher sa compagne" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.4996004793609 : 3.57499001198402); (5.00062383056108 : 3.61251559576403)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="ea7eb6d1-b5ec-414b-8bbd-ebd5db50c61f" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="3.5625, 3.625, 0.52439594268798828, 0.14800345897674561" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="6290738c-30a2-44b6-ba5b-170789dcd091" />
+        <useCaseShapeMoniker Id="84f45dc2-0661-4d31-8dbf-c5503d1462c8" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="e5e83a8a-d94b-4bce-9aea-f22ac24e116c" absoluteBounds="5, 4, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b5851761-a7e2-4d2f-bbeb-71256a0b7cf2" LastKnownName="Creation grille tarifaire" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(3.49029033784546 : 4.55145644932318); (5.02108685738942 : 4.32183697139159)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="2c6112a1-1f8b-4157-bbed-1eb8329c20f4" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="97556513-a832-4e93-96d1-156aaaef0f11" />
+        <useCaseShapeMoniker Id="e5e83a8a-d94b-4bce-9aea-f22ac24e116c" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="a6cc08c7-0ae1-4987-a49d-a2bb29497c7d" absoluteBounds="5, 4.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="19157960-ecd8-4e29-a168-e025ed66d4c7" LastKnownName="Rechercher grille tarifaire" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.49029033784546 : 4.69854355067682); (5.02108685738942 : 4.92816302860841)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="1dba206c-bda4-4f87-8c8f-88e0d6a23ed8" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="97556513-a832-4e93-96d1-156aaaef0f11" />
+        <useCaseShapeMoniker Id="a6cc08c7-0ae1-4987-a49d-a2bb29497c7d" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="c994e825-5345-4de9-8866-1e116f899f9f" absoluteBounds="5.125, 5.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="cbe63dd5-7dbe-45d7-bdea-7d921afc438e" LastKnownName="Creation plan media" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(3.49116928321124 : 5.8282219730275); (5.13383071678876 : 5.6717780269725)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="243ca719-6c36-44c2-9cd7-378e9044c5ec" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="29d928bf-a66c-4228-b5a4-88469d4cb257" />
+        <useCaseShapeMoniker Id="c994e825-5345-4de9-8866-1e116f899f9f" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="c52387f2-af1f-4b94-91f3-b83cf3dd1934" absoluteBounds="5.125, 6, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="73c8bd33-96b0-4ae9-9808-ffa7538f16d8" LastKnownName="Rechercher plan media" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.48076197382041 : 5.94368028197434); (5.14423802617959 : 6.18131971802566)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="7dbd77b9-c5e3-450a-a72d-44a5701a1efd" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="29d928bf-a66c-4228-b5a4-88469d4cb257" />
+        <useCaseShapeMoniker Id="c52387f2-af1f-4b94-91f3-b83cf3dd1934" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="fed4f95d-9f62-4f17-9fc4-9c7072471688" absoluteBounds="6.5, 2.875, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9be6fdb8-3e26-4226-bfec-8e717817222b" LastKnownName="Remplir un plan media" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(5.94721359549996 : 2.98680339887499); (6.52565835097474 : 3.13141458774369)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="6e8742d0-408a-4f66-beef-4bcf27592a26" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="5cb46598-38ae-4d28-b14b-d3f69f0a5a8e" />
+        <useCaseShapeMoniker Id="fed4f95d-9f62-4f17-9fc4-9c7072471688" />
+      </nodes>
+    </extendConnector>
+    <extendConnector edgePoints="[(5.94721359549996 : 3.51319660112501); (6.52565835097474 : 3.36858541225631)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="b3b0b9fd-46dd-47f4-a3b0-798203043a12" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="84f45dc2-0661-4d31-8dbf-c5503d1462c8" />
+        <useCaseShapeMoniker Id="fed4f95d-9f62-4f17-9fc4-9c7072471688" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="f15d9d49-ddad-468a-8e8f-99249d589469" absoluteBounds="2.375, 2.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="306705fe-885e-4315-87e9-271a8693be46" LastKnownName="Acceder a ses filtres" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="598fb354-8876-410f-9263-4553d683158c" absoluteBounds="4.75, 1.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="cc23f82b-ac81-499a-b8a1-e62a93ad280c" LastKnownName="Creer filtre" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(3.27752791867668 : 2.22670024048754); (4.84747208132332 : 1.64829975951246)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="aa73945e-785e-4bc3-92d0-fa973a79462b" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="f15d9d49-ddad-468a-8e8f-99249d589469" />
+        <useCaseShapeMoniker Id="598fb354-8876-410f-9263-4553d683158c" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="40e53dda-c43a-4c52-a7c3-73d52c1d3e12" absoluteBounds="4.75, 2, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="d2dfe6af-46c5-4566-a4ac-409f72510582" LastKnownName="rechercher filtre" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.3722527264607 : 2.34882880387049); (4.7527472735393 : 2.27617119612951)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="9471ca91-fd8f-4abd-a0f1-92f777c860f7" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="f15d9d49-ddad-468a-8e8f-99249d589469" />
+        <useCaseShapeMoniker Id="40e53dda-c43a-4c52-a7c3-73d52c1d3e12" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="a243f14d-9755-4787-9e7a-5545177fd0e8" absoluteBounds="7.25, 5.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="04e16a42-7efd-4c21-8fa0-8480c6ab2e3a" LastKnownName="Affichage des GRP" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseDependencyConnector edgePoints="[(6.125 : 5.625); (7.25 : 5.625)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black">
+      <dependencyMoniker Id="c59256a5-7b3f-4e2b-8ce6-ab360f7b1b08" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="c994e825-5345-4de9-8866-1e116f899f9f" />
+        <useCaseShapeMoniker Id="a243f14d-9755-4787-9e7a-5545177fd0e8" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseShape Id="f9470d3d-2128-40ec-824b-3d226872d017" absoluteBounds="2.375, 1.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="76861565-ae25-49a4-b699-ac305cbc77a0" LastKnownName="uploader une vague" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="41d3d382-4f99-45a2-bc1b-0d9ef0795b52" absoluteBounds="2.375, 0.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e6e0eea1-566d-4668-8127-61df32a5ecab" LastKnownName="Uploader Plan media" />
+      <relativeChildShapes />
+    </useCaseShape>
+  </nestedChildShapes>
+</useCaseDiagram>

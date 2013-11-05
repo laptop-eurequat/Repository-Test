@@ -1,0 +1,8 @@
+C:\Users\Sofiane\Desktop\Zero\Zero.Services\bin\Debug\Zero.Services.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.Services\bin\Debug\Zero.Services.pdb
+C:\Users\Sofiane\Desktop\Zero\Zero.Services\obj\Debug\Zero.Services.dll
+C:\Users\Sofiane\Desktop\Zero\Zero.Services\obj\Debug\Zero.Services.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Services\bin\Debug\Zero.Services.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Services\bin\Debug\Zero.Services.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Services\obj\Debug\Zero.Services.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.Services\obj\Debug\Zero.Services.pdb

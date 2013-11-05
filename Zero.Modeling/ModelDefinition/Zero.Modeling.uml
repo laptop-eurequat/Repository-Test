@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="6da236c5-1d33-437d-9286-fb284c7796d2"
+  name="Zero.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="97147196-7e6b-404b-aa97-2df0bb487400"
+        name="CompagneRepository"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="3c861d70-511a-4725-bedd-92213fbc02f1"
+            name="GetCompagne"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1c9a2a5f-dbe2-4f3e-9e22-5de605e71ff5"
+                  name="id"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e5fbc974-0b85-4f5f-8c69-f89e30e77a5b"
+        name="PresseInsertion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e96b3967-9b17-4cd0-a3f9-ee027f0d83af"
+        name="TVInsertion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fdb6b4ce-74d9-4ff5-aaa3-8604988cfccc"
+        name="RAdioInsertion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="48c8ed8c-0b63-4d2a-8226-5b584a1b519f"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9a8256d6-c782-4787-97d3-04bc20e243d8"
+        name="Individus"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="2ea6795d-643c-467c-bd4a-52539f65bae1"
+            isDerived="false"
+            sourceEndRoleName="Individus"
+            targetEndRoleName="Signalitique"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="9d8bc19a-c20a-456d-87b4-7563e49ed03b"
+              LastKnownName="Signalitique"
+              LastKnownLocation="Zero.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c6866813-8fa9-480b-b0bd-fb4e0c598387"
+                  name="Individus"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5f74eac4-9f3d-49fd-8e45-d862703fba0a"
+                  name="Signalitique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b2c18253-7329-41fb-b2a4-ea1c40591104"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d833b233-75e3-43ad-9506-087d3e50c16a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9d8bc19a-c20a-456d-87b4-7563e49ed03b"
+        name="Signalitique"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="eacb02bf-37ed-4517-b6a8-33366bb7410e"
+            isDerived="false"
+            sourceEndRoleName="Signalitique"
+            targetEndRoleName="AudienceTV"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="53230836-d0c5-4976-99b0-6ad731869cca"
+              LastKnownName="AudienceTV"
+              LastKnownLocation="Zero.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26b54c99-b3de-45a6-81d7-16946e65f0cf"
+                  name="Signalitique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1e9d2f62-95b9-458d-9d63-95535574f157"
+                  name="AudienceTV"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="321def5c-2d1d-4dca-a89d-7b0c090c7ed0"
+            isDerived="false"
+            sourceEndRoleName="Signalitique"
+            targetEndRoleName="AudiencePresse"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f035dbbd-7ff3-405b-ba9b-eb68b130d6a5"
+              LastKnownName="AudiencePresse"
+              LastKnownLocation="Zero.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="833b5839-e9ab-45fc-8ab7-af317f339640"
+                  name="Signalitique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a3f1f85-3e19-4a95-b7ab-3f733fa0407a"
+                  name="AudiencePresse"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f0ae1b5e-64c3-4d61-8de8-c78976bfa28a"
+            isDerived="false"
+            sourceEndRoleName="Signalitique"
+            targetEndRoleName="AudienceRadio"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="399c94c3-99ec-4374-8de7-9d7ce77e774b"
+              LastKnownName="AudienceRadio"
+              LastKnownLocation="Zero.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="37552c1f-4392-4b39-92f6-bd96ad12d189"
+                  name="Signalitique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55f8a8d4-0d91-4dc3-bc53-8ffe9109708c"
+                  name="AudienceRadio"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="53230836-d0c5-4976-99b0-6ad731869cca"
+        name="AudienceTV"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e658a5c1-983a-4a74-a5e1-633c5037cd69"
+        name="Vague"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="1fd7fac7-8308-4453-a96f-37f760a28772"
+            isDerived="false"
+            sourceEndRoleName="Vague"
+            targetEndRoleName="Signalitique"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="9d8bc19a-c20a-456d-87b4-7563e49ed03b"
+              LastKnownName="Signalitique"
+              LastKnownLocation="Zero.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a6101d46-e1dd-4fa5-9128-6a170f79a8b9"
+                  name="Vague"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2b163c98-c24d-4750-8b12-5f2e05cc406b"
+                  name="Signalitique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0493f798-cd06-423d-ad13-e7f1677b6fe4"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="14679be7-ef1e-4d89-8d9f-4504b4e6667d"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="399c94c3-99ec-4374-8de7-9d7ce77e774b"
+        name="AudienceRadio"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f035dbbd-7ff3-405b-ba9b-eb68b130d6a5"
+        name="AudiencePresse"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="53215f9e-c341-4fc2-bfc9-1ca7c1323cc6"
+        name="user"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c9c815d6-2978-4055-bee4-79c066035adb"
+        name="Acces a sa compagne"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b6825308-758c-40a7-8ea4-e1cbf1c1b250">
+            <useCaseMoniker
+              Id="006d4228-20ae-48aa-ba67-55d0fabc5c5d"
+              LastKnownName="Creation compagne"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="233dc915-962d-4d8f-a59a-b90a3bb0f4e4">
+            <useCaseMoniker
+              Id="f6805d2d-eced-4237-b516-8d6869ba3cc2"
+              LastKnownName="Rechercher sa compagne"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0ae2588b-0014-4785-9287-a0e15d11eccd"
+        name="Acces a une une grille tarifaire"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a98dc85c-e965-4214-be3b-0089984f7764">
+            <useCaseMoniker
+              Id="64c38d2e-d71e-4f88-bb89-c6e02f03cd1a"
+              LastKnownName="Creation grille tarifaire"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="b3928237-1778-4318-a039-378b3a3bdee3">
+            <useCaseMoniker
+              Id="58160be2-a113-45ba-9c90-f9fa58273448"
+              LastKnownName="Rechercher grille tarifaire"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3817e9bb-4015-4d65-849b-27d70c26a9ce"
+        name="Access a  un plan media "
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="06d56c2d-8351-4c88-ab03-8432e27281ca">
+            <useCaseMoniker
+              Id="2c5e6a09-3cfa-4926-9d0e-d16a92d177a8"
+              LastKnownName="Creation plan media"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="219b498e-4b43-4b16-a677-9813646dd61a">
+            <useCaseMoniker
+              Id="78f58868-2cb6-4ffe-87dd-334c08ceed88"
+              LastKnownName="Rechercher plan media"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2ba32a28-05b6-457c-9bdf-f314d60190b8"
+        name="Optimization d'un plan"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="006d4228-20ae-48aa-ba67-55d0fabc5c5d"
+        name="Creation compagne"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="9063bf5d-1e2d-42ac-8075-0eb5ef56187f">
+            <useCaseMoniker
+              Id="084b61c0-7844-4a14-bedf-af73c6000fd1"
+              LastKnownName="Remplir un plan media"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f6805d2d-eced-4237-b516-8d6869ba3cc2"
+        name="Rechercher sa compagne"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f50de061-9782-4055-925f-71bf6355ceba">
+            <useCaseMoniker
+              Id="084b61c0-7844-4a14-bedf-af73c6000fd1"
+              LastKnownName="Remplir un plan media"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="64c38d2e-d71e-4f88-bb89-c6e02f03cd1a"
+        name="Creation grille tarifaire"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="58160be2-a113-45ba-9c90-f9fa58273448"
+        name="Rechercher grille tarifaire"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2c5e6a09-3cfa-4926-9d0e-d16a92d177a8"
+        name="Creation plan media"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="3e6fa772-c848-45de-8b77-5fd34b47f8ef">
+            <useCaseMoniker
+              Id="9fdc78a8-340a-4d94-8089-cdd86c56700c"
+              LastKnownName="Affichage des GRP"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="78f58868-2cb6-4ffe-87dd-334c08ceed88"
+        name="Rechercher plan media"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="084b61c0-7844-4a14-bedf-af73c6000fd1"
+        name="Remplir un plan media"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dc77ada6-7703-474f-87f0-d626fc4c1b1b"
+        name="Acceder a ses filtres"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a2699751-aa0c-445b-b8e8-e8e056ab83b9">
+            <useCaseMoniker
+              Id="1eacc95d-0578-4257-995d-d41ed6f1043d"
+              LastKnownName="Creer filtre"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="1d9f6170-9e2f-4e52-9402-4d3c92c6c2b4">
+            <useCaseMoniker
+              Id="33b833c0-c004-4669-9b3d-1fbe5474df67"
+              LastKnownName="rechercher filtre"
+              LastKnownLocation="Zero.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1eacc95d-0578-4257-995d-d41ed6f1043d"
+        name="Creer filtre"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="33b833c0-c004-4669-9b3d-1fbe5474df67"
+        name="rechercher filtre"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9fdc78a8-340a-4d94-8089-cdd86c56700c"
+        name="Affichage des GRP"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="08156f24-45b4-477e-94ab-bec34c7575cc"
+        LastKnownName="Aggregate Annonceur"
+        LastKnownLocation="Package_0040.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5fada393-ebe9-44ce-9738-195c15d2247f"
+        LastKnownName="Package1"
+        LastKnownLocation="Package_0042.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d1513fd1-2961-426b-acd8-e6b32b8907ce"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bbb557c6-116a-4709-8229-0f49aefb769d"
+        name="uploader une vague"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="85454c8e-c08a-4552-a399-42fa6b653578"
+        name="Uploader Plan media"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

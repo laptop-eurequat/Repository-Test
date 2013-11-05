@@ -1,0 +1,17 @@
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.ServiceApplication.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.ServiceApplication.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\obj\Debug\Zero.ServiceApplication.csprojResolveAssemblyReference.cache
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\obj\Debug\Zero.ServiceApplication.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\obj\Debug\Zero.ServiceApplication.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.Service.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.Contract.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.DataContract.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.POCO.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.Core.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Excel.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\ICSharpCode.SharpZipLib.dll
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.Service.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.Contract.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.DataContract.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.POCO.pdb
+D:\projet\Media Plan\mediaPlan\Zero\Zero.ServiceApplication\bin\Zero.Core.pdb

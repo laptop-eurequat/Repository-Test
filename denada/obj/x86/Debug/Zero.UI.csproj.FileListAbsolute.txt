@@ -1,0 +1,52 @@
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\Zero.UI.csprojResolveAssemblyReference.cache
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.Form1.resources
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.Properties.Resources.resources
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.USerControl.Compagnes.resources
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.USerControl.Filtres.resources
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.USerControl.ListePrix.resources
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.USerControl.Optimization.resources
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\Zero.UI.csproj.GenerateResource.Cache
+D:\projet\Media Plan\Zero\denada\obj\x86\Debug\denada.exe.licenses
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.Form1.resources
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.Properties.Resources.resources
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.USerControl.Compagnes.resources
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.USerControl.Filtres.resources
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.USerControl.ListePrix.resources
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.USerControl.Optimization.resources
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\Zero.UI.csproj.GenerateResource.Cache
+C:\Users\Sofiane\Desktop\Zero\denada\bin\Debug\denada.exe
+C:\Users\Sofiane\Desktop\Zero\denada\bin\Debug\denada.pdb
+C:\Users\Sofiane\Desktop\Zero\denada\bin\Debug\nunit.framework.dll
+C:\Users\Sofiane\Desktop\Zero\denada\bin\Debug\nunit.framework.xml
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.exe
+C:\Users\Sofiane\Desktop\Zero\denada\obj\x86\Debug\denada.pdb
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.exe
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.pdb
+D:\projet\Media Plan\mediaPlan\Zero\denada\bin\Debug\denada.exe
+D:\projet\Media Plan\mediaPlan\Zero\denada\bin\Debug\denada.pdb
+D:\projet\Media Plan\mediaPlan\Zero\denada\bin\Debug\nunit.framework.dll
+D:\projet\Media Plan\mediaPlan\Zero\denada\bin\Debug\nunit.framework.xml
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.Form1.resources
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.Properties.Resources.resources
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.Compagnes.resources
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.Filtres.resources
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.ListePrix.resources
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.Optimization.resources
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\Zero.UI.csproj.GenerateResource.Cache
+D:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.exe.licenses
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.exe
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.pdb
+F:\projet\Media Plan\mediaPlan\Zero\denada\bin\Debug\denada.exe
+F:\projet\Media Plan\mediaPlan\Zero\denada\bin\Debug\denada.pdb
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.Form1.resources
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.Properties.Resources.resources
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.Compagnes.resources
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.Filtres.resources
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.ListePrix.resources
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.USerControl.Optimization.resources
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\Zero.UI.csproj.GenerateResource.Cache
+F:\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.exe.licenses
+J:\hdd\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.exe
+J:\hdd\projet\Media Plan\mediaPlan\Zero\denada\obj\x86\Debug\denada.pdb
+C:\Users\sofiane\Documents\Visual Studio 2012\Projects\Zero\denada\obj\x86\Debug\denada.exe
+C:\Users\sofiane\Documents\Visual Studio 2012\Projects\Zero\denada\obj\x86\Debug\denada.pdb

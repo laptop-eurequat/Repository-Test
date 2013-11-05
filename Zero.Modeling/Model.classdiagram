@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="ad3ea0bc-b966-4821-baba-d08fa5539c35" name="Model" linkedPackageId="df5e5b48-5150-437b-aa3a-15e0b4367497" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d705eb02-3df3-4418-b4b0-c90411464ff1" name="Individus" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9a8256d6-c782-4787-97d3-04bc20e243d8" />
+        <targetEnds>
+          <association Id="3713e906-0a1f-4e7b-83db-a196c1f80f54" isDerived="false" sourceEndRoleName="Individus" targetEndRoleName="Signalitique" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e4a884d4-e8d0-4632-9bcd-9048914000b3" LastKnownName="Signalitique" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="43a20497-7837-4fd2-b3ee-877a06d32fd0" name="Individus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6866813-8fa9-480b-b0bd-fb4e0c598387" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2ccda5b6-f9fd-40b1-aae4-8c8ec193d255" name="Signalitique" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="9b6de2f7-ab59-4890-869b-07049c368a39" name="Lower" value="1">
+                      <elementDefinition Id="b2c18253-7329-41fb-b2a4-ea1c40591104" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="be0f0b64-b567-4829-85f3-bff8d48129a1" name="Upper" value="*">
+                      <elementDefinition Id="d833b233-75e3-43ad-9506-087d3e50c16a" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="5f74eac4-9f3d-49fd-8e45-d862703fba0a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2ea6795d-643c-467c-bd4a-52539f65bae1" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e4a884d4-e8d0-4632-9bcd-9048914000b3" name="Signalitique" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9d8bc19a-c20a-456d-87b4-7563e49ed03b" />
+        <targetEnds>
+          <association Id="365faa8d-eca6-4599-98fa-ae6bba907151" isDerived="false" sourceEndRoleName="Signalitique" targetEndRoleName="AudienceTV" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e55d8e5d-e50c-4290-8932-9080786bab92" LastKnownName="AudienceTV" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28a9549f-4394-493d-ba98-db7f2b785b6f" name="Signalitique" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="26b54c99-b3de-45a6-81d7-16946e65f0cf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3452787f-80fa-40e5-a740-39b03d10535a" name="AudienceTV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="1e9d2f62-95b9-458d-9d63-95535574f157" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eacb02bf-37ed-4517-b6a8-33366bb7410e" />
+          </association>
+          <association Id="d0468f74-724f-48ca-9d89-de404d4be1db" isDerived="false" sourceEndRoleName="Signalitique" targetEndRoleName="AudiencePresse" isLeaf="false" isAbstract="false">
+            <classMoniker Id="77523d82-a41c-4da6-9445-9917ec553f46" LastKnownName="AudiencePresse" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1d67f58-e043-4ddc-86b6-bc725b37c4c7" name="Signalitique" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="833b5839-e9ab-45fc-8ab7-af317f339640" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9016718a-e543-49fc-9659-4a42d5649b8e" name="AudiencePresse" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="9a3f1f85-3e19-4a95-b7ab-3f733fa0407a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="321def5c-2d1d-4dca-a89d-7b0c090c7ed0" />
+          </association>
+          <association Id="93ef8fc9-1b28-40a5-9a41-f542a133502d" isDerived="false" sourceEndRoleName="Signalitique" targetEndRoleName="AudienceRadio" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fc18d940-f2ac-4aa8-ba56-de6f001347f6" LastKnownName="AudienceRadio" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="55837cf3-482d-4ed5-bc29-2710033c7160" name="Signalitique" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="37552c1f-4392-4b39-92f6-bd96ad12d189" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ccb888a7-6563-4921-90b5-1c17d8a2f7ca" name="AudienceRadio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="55f8a8d4-0d91-4dc3-bc53-8ffe9109708c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f0ae1b5e-64c3-4d61-8de8-c78976bfa28a" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e55d8e5d-e50c-4290-8932-9080786bab92" name="AudienceTV" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="53230836-d0c5-4976-99b0-6ad731869cca" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8bed9eb1-a98e-4ae6-ade9-922d55633646" name="Vague" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e658a5c1-983a-4a74-a5e1-633c5037cd69" />
+        <targetEnds>
+          <association Id="448ff9b5-0d38-4ca4-ba03-89487a75a876" isDerived="false" sourceEndRoleName="Vague" targetEndRoleName="Signalitique" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e4a884d4-e8d0-4632-9bcd-9048914000b3" LastKnownName="Signalitique" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96e392b7-27ef-4970-9285-66ce295afb9e" name="Vague" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a6101d46-e1dd-4fa5-9128-6a170f79a8b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2a822000-79a5-43bb-b2b3-2f05fd57281a" name="Signalitique" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="892c8786-bfe3-4006-b749-bcfdb5dc5c26" name="Lower" value="1">
+                      <elementDefinition Id="0493f798-cd06-423d-ad13-e7f1677b6fe4" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="56df315f-f1b0-4c24-b2f3-0c7ad2433a5e" name="Upper" value="*">
+                      <elementDefinition Id="14679be7-ef1e-4d89-8d9f-4504b4e6667d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="2b163c98-c24d-4750-8b12-5f2e05cc406b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1fd7fac7-8308-4453-a96f-37f760a28772" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fc18d940-f2ac-4aa8-ba56-de6f001347f6" name="AudienceRadio" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="399c94c3-99ec-4374-8de7-9d7ce77e774b" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="77523d82-a41c-4da6-9445-9917ec553f46" name="AudiencePresse" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f035dbbd-7ff3-405b-ba9b-eb68b130d6a5" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="c85e22f3-d438-4ef3-bb93-b3d1bae21dfc" name="Aggregate Annonceur">
+        <elementDefinition Id="08156f24-45b4-477e-94ab-bec34c7575cc" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="a9305a12-168b-48d1-a5ea-8bf3f1d3e181" name="Annonceur" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="ed7fba84-87b0-46a4-8811-7ec0c7379983" />
+              <targetEnds>
+                <association Id="311b65eb-7bb3-479c-be34-ba19d7381d6a" isDerived="false" sourceEndRoleName="Annonceur" targetEndRoleName="Compagne" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="1c3dd078-cd3f-472e-8b6c-760eae8999f2" LastKnownName="Compagne" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="9ee83117-c15d-4bd1-8476-1a327c27232a" name="Annonceur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="9d27571c-5bd5-4508-a7a1-3a47800dcf4e" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="8c613272-b3a4-4bc2-b260-189a6bb4ed39" name="Compagne" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="3b4275b3-a7c5-47f7-b11c-ade59949b2fa" name="Lower" value="*">
+                            <elementDefinition Id="ed47e930-7c18-4a73-9f93-33ebe9a269b4" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="1980539b-9a00-42a0-a6df-2a3276be1059" name="Upper" value="*">
+                            <elementDefinition Id="742a63c1-2a68-4def-b5ee-f69359836c22" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="743e8c7d-c4fb-4bda-bb95-42f1b94ac1c1" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="3746d7ee-5d93-418d-806b-937653b9a16e" />
+                </association>
+                <association Id="c20163dc-4214-455d-add1-43c4a3a85df8" isDerived="false" sourceEndRoleName="Annonceur" targetEndRoleName="Marque" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="48230085-4917-436d-a9f9-892212c8b38e" LastKnownName="Marque" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="898ab6ff-10c8-48be-9ede-5b8eafb9a49b" name="Annonceur" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="9f6c2455-d143-4b58-9e75-6ea57056966c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="992481b3-7324-442a-ba22-b015558e0b14" name="Marque" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="807aed71-7165-4d62-8d8f-3eda0f642fba" name="Lower" value="*">
+                            <elementDefinition Id="e69ae25f-757a-43b6-9eb6-d5581b10a517" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="e0907c42-0759-4570-a87c-52c175ebc0f3" name="Upper" value="*">
+                            <elementDefinition Id="b47059a6-7d5f-4b86-997a-4ef3bfe9d3de" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="287c2fad-db86-46a5-a623-3b75ff0764de" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="e3b60cea-ff29-4dba-a9d2-5f0bd67adb39" />
+                </association>
+              </targetEnds>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="48230085-4917-436d-a9f9-892212c8b38e" name="Marque" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="b52b71ed-f164-47f4-958a-56506c8d505c" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="528793fc-40ae-47a7-adcb-7d6ae83122cb" name="Package1">
+        <elementDefinition Id="5fada393-ebe9-44ce-9738-195c15d2247f" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="356c398b-f96d-46d7-a9fc-3c0a46371d09" name="PlanPresse" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="5578acea-edd2-4ff6-b09c-e8b8dc48b0f0" />
+              <targetEnds>
+                <association Id="4382ae03-59d8-47d6-a87a-d132ccf1a587" isDerived="false" sourceEndRoleName="PlanPresse" targetEndRoleName="InsertionPresse" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="702f45cd-e5be-4160-9bb7-24e522a1df1f" LastKnownName="InsertionPresse" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="9c3b409d-c70b-4769-92d5-edf72654f7c2" name="PlanPresse" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="40eedce9-1f1f-4bd0-9e16-b7e6a19399b3" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d0f6279e-52ab-4cef-978f-912a07ab3593" name="InsertionPresse" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <elementDefinition Id="5ecb24fe-0729-42c8-83ce-25fc429a3c93" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="8a952d84-1174-4f4e-ab95-19b2d9be2100" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="30cc5b66-a06c-4bbf-91e7-16db45b40376" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2c57c0e9-cd47-4b58-8b96-95569e63a21c" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="84ba0403-2d5e-482b-b397-7d4901803785" name="PlansRadio" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="5e752c5e-cf54-456b-ac1f-6a666d1e1755" />
+              <targetEnds>
+                <association Id="7637039e-0ea4-43a4-8bb1-8222e94bf4c6" isDerived="false" sourceEndRoleName="PlansRadio" targetEndRoleName="InsertionRadio" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="6b0db353-6558-4e7a-9bf2-689f80b4929c" LastKnownName="InsertionRadio" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d2d97ab4-a855-480b-979f-3b2e11d1a683" name="PlansRadio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="a1dfdb6a-a6d3-4e92-a17a-b58697ae2bb0" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c9da6d87-dd05-4f9e-adde-c9472592d97a" name="InsertionRadio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <elementDefinition Id="f96bc8ec-4f34-42b7-b4d0-eede4ad3fc98" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="f83b10d7-10d0-4391-a91f-36523ac1dec6" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="4a3ee5d1-926e-4e8c-ab69-527925e5bc59" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f45f52a3-123a-4e14-8be2-f9a5d8c5f123" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="061b299a-d6fd-48a3-8f88-5441f6b93d88" name="PlanAffichage" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="27b60d70-bad9-4e2c-b00e-ed0fbbfbb6d4" />
+              <ownedAttributesInternal>
+                <property Id="2277f135-0686-4e2d-8758-39c437d37939" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3b9df27b-5565-4ab7-8712-1bd887baadbe" />
+                </property>
+                <property Id="3811b3ee-724b-4875-a815-ebc3eee5618c" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="87f63532-02a1-4f1f-80c4-7448dce06a53" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="5bc50598-faf6-49ec-a1ba-6d38b15f82d8" name="PlansTV" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="35a9563c-1277-402c-8c8d-748106e018d7" />
+              <targetEnds>
+                <association Id="a0f7cf65-e61f-4ca8-842d-6649d0299d42" isDerived="false" sourceEndRoleName="PlansTV" targetEndRoleName="InsertionTele" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="b2c529ae-710c-4e1c-b3e8-9587ae0fbfd1" LastKnownName="InsertionTele" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="cb5fdf7a-81d7-4df3-bf2a-74065221c8ce" name="PlansTV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="73620a4c-512c-45c4-9a8f-8a489327e9a7" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="e638318e-9810-4f6d-b632-fdaed521654e" name="InsertionTele" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <elementDefinition Id="b253a7fa-256c-40d3-86ad-722e536688ba" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="f896c6c3-7ea0-4299-971f-124d4aea2588" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="1624b973-d102-4d2b-827f-37e4aaa0b125" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d9321e4c-ca32-43f7-b39c-a0e637f0c4c6" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="1c3dd078-cd3f-472e-8b6c-760eae8999f2" name="Compagne" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="422921d0-c1a1-48bc-97be-c1770178bc3c" />
+              <targetEnds>
+                <association Id="93e47bd1-a560-46f8-bff2-1fd25176d487" isDerived="false" sourceEndRoleName="Compagne" targetEndRoleName="Class1" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="061b299a-d6fd-48a3-8f88-5441f6b93d88" LastKnownName="PlanAffichage" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="8dea69b2-8048-455b-91f1-4b38661cfcfb" name="Compagne" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="24e27dca-847a-4433-bf90-2229de0b4bbd" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="f6f399b7-b534-4bf1-90c6-09eb37b057fc" name="Class1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="1a54dd21-dd90-4784-b357-0e1b959b5cc5" name="Lower" value="0-*">
+                            <elementDefinition Id="5fed02f9-7dc4-45fd-93a1-4cf532bc4c38" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="d94cc1ee-d247-4c68-986a-ac8af92ad0c4" name="Upper" value="0-*">
+                            <elementDefinition Id="3f18fe5c-03c8-48bc-8bb1-81f7e78d35d6" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="a26795e2-5b7b-4ef6-a20f-d7f34a9139b6" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="006da0e2-b4b3-4e92-9eef-59b836ee163f" />
+                </association>
+                <association Id="386f2d6e-d422-45d9-bbfb-828ffbd4e1fb" isDerived="false" sourceEndRoleName="Compagne" targetEndRoleName="Class2" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="84ba0403-2d5e-482b-b397-7d4901803785" LastKnownName="PlansRadio" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="e1a55096-f770-4207-8af6-2015f2470a21" name="Compagne" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="70157e56-2c9c-4ccd-83db-3c96d459454b" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="8a20f92f-ee9e-4057-90a7-755eaefc5a56" name="Class2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="b30ebfa2-3dca-46b2-ab06-585affde5350" name="Lower" value="0-*">
+                            <elementDefinition Id="c96e4853-2eba-4112-abfb-eda27f59e326" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="073c1ac7-7bf5-45ec-841b-5dbc5eda285a" name="Upper" value="0-*">
+                            <elementDefinition Id="76f8b13d-6628-4864-92a4-59ea9e5468b5" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="b827192b-076c-42c9-80a3-e18c8361e0e3" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="7da4f065-936c-43e4-a933-36fdcea6b7f3" />
+                </association>
+                <association Id="c2f35518-5d50-425b-9b80-081cc9e24dde" isDerived="false" sourceEndRoleName="Compagne" targetEndRoleName="Class3" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="5bc50598-faf6-49ec-a1ba-6d38b15f82d8" LastKnownName="PlansTV" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c6ba1579-9943-4b00-a383-c5c5fce29fd4" name="Compagne" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="90de044f-0b12-45f7-b9a4-2a74f982b33f" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="64287372-3502-4150-8265-ef0e415e0bf3" name="Class3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="ffe5974a-168b-46e7-b55e-2e0ea18e590f" name="Lower" value="0-*">
+                            <elementDefinition Id="26f41cc0-c0c6-4cb9-a68c-f371a8d5e848" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="f56e098d-4fca-49fe-a952-aeba7dee8a0b" name="Upper" value="0-*">
+                            <elementDefinition Id="e8966f67-b595-4fc5-a5a6-b2b663ab9814" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="fa30dbd2-48e1-446b-88ef-03c093859662" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="619b13bb-26b9-4ed4-bed1-4a5f6d2f32e7" />
+                </association>
+                <association Id="260a2a0d-ded9-45a3-b30a-8e87f3543a39" isDerived="false" sourceEndRoleName="Compagne" targetEndRoleName="Class1" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="356c398b-f96d-46d7-a9fc-3c0a46371d09" LastKnownName="PlanPresse" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="15405507-a5fb-4c1f-80f0-32cb524b5841" name="Compagne" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="9b36f045-ad78-4199-bdb1-ea4ff1af0ef3" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="5227441e-e479-47cf-b214-225beb19efb0" name="Class1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="4614b758-41e8-41f2-a9eb-bcae158192a4" name="Lower" value="0-*">
+                            <elementDefinition Id="066df60a-a0d7-4f8e-8fbf-0d1ec76f7a51" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="ab9be851-2e2b-4d3d-bfe6-3707c3cca46b" name="Upper" value="0-*">
+                            <elementDefinition Id="ef85428f-8db2-43d2-8710-f7cccfd1d8a6" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="f1ee9325-5076-4aaf-95ee-03787e0c6954" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="07d9b67d-7c21-4ba8-a436-9951a8d55286" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="71d29c48-c5ce-4bb2-b8c5-3089404ce9fa" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1438d996-b376-42a7-a79f-27af5f0e928e" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="b2c529ae-710c-4e1c-b3e8-9587ae0fbfd1" name="InsertionTele" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="cb43fd81-1b1f-4a19-ac46-16866124833b" />
+              <ownedAttributesInternal>
+                <property Id="f74f9cc1-3bab-4925-8082-f0c0ea338c13" name="NumeroQuartHeure" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a560676c-f96f-4bbf-867a-66eb82f35440" />
+                </property>
+                <property Id="56290dbe-277b-49d3-a92f-ea4eef196497" name="Support TV Chaine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ad93db10-0a1a-4c80-bcdb-b2770197cf20" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="6b0db353-6558-4e7a-9bf2-689f80b4929c" name="InsertionRadio" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="ab218220-99ef-4fa7-b389-88d11a9cf281" />
+              <ownedAttributesInternal>
+                <property Id="e8b5ffd4-cd0f-4e43-a3c2-b76c72c179a2" name="NumeroQuartHeure" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="35b405a1-60b6-46fa-a368-9b6a470cfb5f" />
+                </property>
+                <property Id="a7173008-ba03-4b6b-acbd-6b6099a7e112" name="SupportRAdio" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59b2403b-989f-431a-bb58-acb998f0f173" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="702f45cd-e5be-4160-9bb7-24e522a1df1f" name="InsertionPresse" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="3df7265f-06c4-426d-b401-c4613c2c5198" />
+              <ownedAttributesInternal>
+                <property Id="815b5bd4-03a0-4d63-9125-b5c9d9eb51bd" name="NumeroQuartHeure" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="930e2895-6df2-4eea-807a-078bbf245da6" />
+                </property>
+                <property Id="346f5601-bf70-4e0a-acd5-604d29eb0a53" name="Support Presse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="02ce4902-5401-46a6-b5ce-dfebf169b3a3" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="df5e5b48-5150-437b-aa3a-15e0b4367497" name="Zero.Modeling">
+    <elementDefinition Id="6da236c5-1d33-437d-9286-fb284c7796d2" />
+    <profileInstances>
+      <packageHasProfileInstances Id="39cb86d9-5900-4989-bd4f-7ae2487e9027">
+        <profileInstance Id="2402ef05-bb01-4913-b55c-42eaf58e9d45" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8cc0b782-440e-4388-b5de-d5080c4888ee">
+        <profileInstance Id="fdbfcc98-6114-46d6-9eb2-8b2a10b39fcb" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
