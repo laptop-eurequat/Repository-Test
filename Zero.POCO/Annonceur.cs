@@ -15,6 +15,8 @@ namespace Zero.POCO
         }
         //juste un test pour git 
         // un autre test
+
+        // we got a hotfix
         public string Name {get;internal set;}
 
         protected override void Validate()
