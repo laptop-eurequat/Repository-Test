@@ -17,6 +17,8 @@ namespace Zero.POCO
         // un autre test
 
         // la brache iss53
+
+        // une deuxieme modification 
         public string Name {get;internal set;}
 
         protected override void Validate()
